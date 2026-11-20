@@ -37,6 +37,16 @@ jobs:
           cd android
           echo "android.enableJetifier=true" >> gradle.properties
           echo "android.useAndroidX=true" >> gradle.properties
+          cat << 'EOF' >> app/build.gradle
+
+          configurations.all {
+              resolutionStrategy {
+                  force 'org.jetbrains.kotlin:kotlin-stdlib:1.8.22'
+                  force 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22'
+                  force 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22'
+              }
+          }
+          EOF
           chmod +x ./gradlew
           ./gradlew assembleDebug
 
