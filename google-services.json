@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "321810802351",
+    "project_id": "pobreflix-88330",
+    "storage_bucket": "pobreflix-88330.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321810802351:android:dbca6cff67b71e5310965a",
+        "android_client_info": {
+          "package_name": "com.pobreflix.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321810802351-3a4a4fflju514k3e9tcld6iq6k86274m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pobreflix.app",
+            "certificate_hash": "43f76fa7c5de4d473d41eeca8688359d22f856da"
+          }
+        },
+        {
+          "client_id": "321810802351-o46t72s5k4k8k331dhin21735sno7fck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4ut0afOk6C_M0HwyMov2Tw838DEZRuJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321810802351-o46t72s5k4k8k331dhin21735sno7fck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
