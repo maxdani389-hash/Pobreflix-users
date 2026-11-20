@@ -1,5 +1,5 @@
 {
-  "appId": "com.pobreflix.users",
+  "appId": "com.pobreflix.user",
   "appName": "Pobreflix",
-  "webDir": "dist"
+  "webDir": "."
 }
