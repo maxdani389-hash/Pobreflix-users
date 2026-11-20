@@ -1,4 +1,5 @@
-name: Meu Workflow
+name: Build App
+
 on: [push]
 
 jobs:
@@ -7,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Testar fluxo
-        run: echo "O workflow do Pobreflix está a rodar!"
+        run: echo "O teu projeto está a rodar"
