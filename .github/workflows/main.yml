@@ -20,7 +20,7 @@ jobs:
           java-version: '21'
 
       - name: Instalar Capacitor e Android
-        run: npm install @capacitor/core @capacitor/cli @capacitor/android
+        run: npm install @capacitor/core @capacitor/cli @capacitor/android --legacy-peer-deps
 
       - name: Build App
         run: npm run build
