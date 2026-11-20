@@ -1,6 +1,14 @@
 {
-  "name": "app",
+  "name": "pobreflix-app",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "build": "echo ok"
+    "build": "mkdir -p www && cp -r index.html www/ 2>/dev/null || true"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0"
   }
 }
