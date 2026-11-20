@@ -1,2 +1,6 @@
-{"name": "app"}
-
+{
+  "name": "app",
+  "scripts": {
+    "build": "echo ok"
+  }
+}
