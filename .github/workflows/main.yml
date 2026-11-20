@@ -7,5 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Testar fluxo
-        run: echo "O teu projeto está a rodar"
+      - name: Instalar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Instalar Capacitor
+        run: npm install @capacitor/core @capacitor/cli
+      - name: Build App
+        run: npm run build
