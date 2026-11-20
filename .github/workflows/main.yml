@@ -20,11 +20,11 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
+      - name: Criar pasta www e copiar index
+        run: mkdir -p www && cp index.html www/
+
       - name: Instalar Capacitor e Android
         run: npm install @capacitor/core @capacitor/cli @capacitor/android --legacy-peer-deps
-
-      - name: Build App
-        run: npm run build
 
       - name: Adicionar Android
         run: npx cap add android
